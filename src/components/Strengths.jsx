@@ -8,7 +8,7 @@ const strengths = [
     description:
       'ベトナム現地に自社法人を持ち、日本の仲介業者を介さないため、余計なコストが一切かかりません。透明な料金体系で、安心してご利用いただけます。',
     // Ho Chi Minh City skyline — 現地法人・ベトナムのオフィス
-    image: 'url("https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=800&auto=format&fit=crop&q=80")',
+    image: `url("${import.meta.env.BASE_URL}hcmc-skyline.png")`,
     highlights: ['中間マージン0円', '明瞭料金体系', '現地スタッフ常駐'],
     color: 'bg-pastel-blue/20',
     borderColor: 'border-pastel-blueMid/40',
@@ -20,7 +20,7 @@ const strengths = [
     description:
       '登録女性は全員、弊社現地スタッフが直接面談を実施。身元確認書類の審査、家族構成の確認、そして本気で日本人と結婚する意思があるかを厳格に審査します。',
     // Vietnamese women in traditional áo dài — 審査・ベトナム人女性のイメージ
-    image: 'url("https://images.unsplash.com/photo-1594371840647-e8f4e73a82fc?w=800&auto=format&fit=crop&q=80")',
+    image: `url("${import.meta.env.BASE_URL}interview-woman.png")`,
     highlights: ['全員対面面談', '身元書類確認', '結婚意思の確認'],
     color: 'bg-pastel-mint/20',
     borderColor: 'border-pastel-mintMid/40',
@@ -32,7 +32,7 @@ const strengths = [
     description:
       '成婚後も安心。日本語レッスン・文化・マナー講習を自社スタッフが実施。ビザ申請から入国手続きまで、一貫してサポートします。',
     // Japanese language learning / study scene — 日本語学習・サポートのイメージ
-    image: 'url("https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&auto=format&fit=crop&q=80")',
+    image: `url("${import.meta.env.BASE_URL}study-scene.png")`,
     highlights: ['日本語レッスン', 'マナー講習', 'ビザ申請サポート'],
     color: 'bg-pastel-beige',
     borderColor: 'border-pastel-beigeDeep/50',
