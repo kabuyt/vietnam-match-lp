@@ -27,11 +27,14 @@ export default function Hero() {
 
         {/* Main headline */}
         <h1 className="font-serif font-black leading-tight mb-6">
-          <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-3 tracking-relaxed drop-shadow-sm" style={{ color: '#1C2B2B' }}>
-            ベトナム現地法人、<br className="sm:hidden" />直営だからできる
+          <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] mb-3 tracking-relaxed drop-shadow-sm" style={{ color: '#1C2B2B' }}>
+            <span className="inline-block">ベトナム現地法人、</span>
+            <br className="sm:hidden" />
+            <span className="inline-block">直営だからできる</span>
           </span>
           <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl drop-shadow-sm tracking-relaxed text-accent-teal">
-            「誠実な縁」と「透明な価格」。
+            <span className="inline-block">「誠実な縁」と</span>
+            <span className="inline-block">「透明な価格」。</span>
           </span>
         </h1>
 
