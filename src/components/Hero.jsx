@@ -5,7 +5,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105"
         style={{
-          backgroundImage: 'url("/hero-woman.png")',
+          backgroundImage: `url("${import.meta.env.BASE_URL}hero-woman.png")`,
         }}
       />
       {/* Soft pastel overlay */}
